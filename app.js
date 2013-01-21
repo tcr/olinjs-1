@@ -2,7 +2,7 @@ var express = require('express');
 
 var app = express();
 app.get('/', function (req, res) {
-  res.send('<h1>Hello Olin.js!</h1>');
+  res.send('<h1>Hello ' + (process.env.USER || 'Olin.js') + '!</h1>');
 });
 
 var port = process.env.PORT || 3000;
