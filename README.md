@@ -97,7 +97,7 @@ Horray!
 
 **Note:** Unlike other academic institutions, it is totally encouraged that as a programmer, you copy other people's code (if it's licensed accordingly). Never pass off someone else's work as your own—just give them credit! Often you'll find a solution that someone else has made is the right answer. Github makes finding code to work off of easy. 
 
-**Note:** Sign up for the devtalk mailing list.
+**Note:** Sign up for the [devtalk mailing list](https://lists.olin.edu/mailman/listinfo/devtalk).
 
 ## References
 
