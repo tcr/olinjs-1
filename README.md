@@ -42,10 +42,10 @@ There's code in this repository! Check it out by opening `app.js`. To test it ou
 
 ```sh
 $ node app.js
-Open the address http://localhost:3000/
+Open the address http://localhost:8080/
 ```
 
-Check it out. If you go to the address `http://localhost:3000/` in your web browser, it should greet you with a warm message.
+Check it out. If you go to the address `http://localhost:8080/` in your web browser, it should greet you with a warm message.
 
 ## 4. Pushing
 
@@ -55,7 +55,7 @@ git push -u origin master
 
 ## 5. Heroku
 
-Heroku is a web host. They'll run your website for you on a permanent server you can access from a public URL.
+Heroku is a web host. They'll run your website for you on a permanent server that runs 24/7 (most of the time), and give you a URL you can access it at.
 
 ```
 $ heroku create
@@ -64,9 +64,34 @@ $ git push heroku master
 
 ## 6. Taking control of your own destiny
 
-Change the text
+Change the text in app.js from `"Hello"` to `"I can see you, "`.
 
-push
+Test it:
+
+```
+$ node app.js
+```
+
+Commit your changes:
+
+```
+$ git add .
+$ git status
+$ git commit -am "My first change"
+```
+
+Push to Github:
+
+```
+$ git push origin master
+```
+
+Push to Heroku:
+
+```
+$ git push heroku master
+$ heroku open
+```
 
 Horray!
 
