@@ -4,10 +4,7 @@ The first lesson for this class will be a litmus test to see if your development
 
 Read this cute explanation of version control at <http://www-cs-students.stanford.edu/~blynn/gitmagic/ch01.html#_version_control>.
 
-Our version control system (VCS) of choice is Git, which is one of Linus Torvalds' babies. Git is a distributed VCS, which means that
-you store a full copy of the repository on your local computer.  You can them make all the changes you want and then merge them into the
-full project codebase later. This contrasts with a a central VCS, which requires you to be connected to a remote server that allows you to
-check in each change as you make it.  To learn more about Git, check out [Pro Git](http://git-scm.com/book), which is written by Scott Chacon, CIO at GitHub.
+Our version control system (VCS) of choice is Git, which is one of Linus Torvalds' babies. Git is a distributed VCS, which means that you store a full copy of the repository (all the code) on your local computer.  You can them make all the changes you want and save them on your local repository. You can then send this code along with all your changes to another server whenever you want. This contrasts with a a central VCS, which requires you to be connected to a server that allows you to check in each change as you make it.  To learn more about Git, check out [Pro Git](http://git-scm.com/book), which is written by Scott Chacon, CIO at GitHub.
 
 For the examples below, lines prefixed by `$ ` are those you type in. Following lines are what you should expect to see in response:
 
